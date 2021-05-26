@@ -1,5 +1,5 @@
-.Header{
-    display:flex;
+.header{
+    display: flex;
     background-color: transparent;
     background: none;
     position: fixed;
@@ -28,7 +28,7 @@
 
 .header_right{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     text-transform: uppercase;
 }
 

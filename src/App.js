@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="app_itemsContainer">
+      <div className='app_itemsContainer'>
         <Item 
-         title="Lowest Cost Solar Panels in America"
+         title='Lowest Cost Solar Panels in America'
          desc = 'Money-back guarantee'
          descLink=''
          backgroundImg={SolarPanels}
@@ -26,7 +26,7 @@ function App() {
          first
          />
          <Item 
-         title="Model S"
+         title='Model S'
          desc = '$69,420'
          descLink=''
          backgroundImg={ModelS}
@@ -37,7 +37,7 @@ function App() {
          twoButtons='true'
          />
          <Item 
-         title="Model 3"
+         title='Model 3'
          desc = 'Money-back guarantee'
          descLink=''
          backgroundImg={Model3}
@@ -48,7 +48,7 @@ function App() {
          twoButtons='true'
          />
          <Item 
-         title="Model X"
+         title='Model X'
          desc = 'Money-back guarantee'
          descLink=''
          backgroundImg={ModelX}
@@ -59,7 +59,7 @@ function App() {
          twoButtons='true'
          />
          <Item 
-         title="Model Y"
+         title='Model Y'
          desc = 'Money-back guarantee'
          descLink=''
          backgroundImg={ModelY}
@@ -70,7 +70,18 @@ function App() {
          twoButtons='true'
          />
          <Item 
-         title="Accessories"
+         title='Solar Roof'
+         desc = 'Money-back guarantee'
+         descLink=''
+         backgroundImg={SolarRoof}
+         leftBtnTxt='CUSTOM ORDER'
+         leftBtnLink=''
+         rightBtnTxt='LEARN MORE'
+         rightBtnLink=''
+         twoButtons='true'
+         />
+         <Item 
+         title='Accessories'
          desc = 'Money-back guarantee'
          descLink=''
          backgroundImg={Accessories}
